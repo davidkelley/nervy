@@ -33,7 +33,7 @@ module Nervy
 
     describe '#publish' do
 
-      let(:path) { "" }
+      let(:path) { "a/nested/message/path" }
 
       let(:text) { Faker::Internet.email }
 
